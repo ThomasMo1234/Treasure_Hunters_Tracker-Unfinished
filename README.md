@@ -1,19 +1,29 @@
 # Treasure Hunters Tracker
 A web app including an in-game tracker for the Fortnite 2026 season "Chapter 7 Mini Season 1 (Treasure Hunters)". The tracker estimates a player’s probability of obtaining an in-game item before a season ends, using a probabilistic model with time-varying drop rates.
 
+<!-- add a screenshot of page and maybe link to website -->
+
 ## Who should use this?
 You can use this tracker if you would like to determine the probability of obtaining in-game items such as the "Pirate Shop Access Token" or "Weekly Vehicle and Decal" by the end of the season.
 
 **It is useful if you want to:**
 - See your chance of getting the token based on how fast you open chests per hour.
 - Work out how much playtime per day you would need to achieve a target chance.
-- Account for treasure hours when planning when to play
+- Account for treasure hours when planning when to play.
 
 ## Features
+- Calculates your chance of getting an item from your chest-opening rate, daily playtime and days left in the season.
+- Supports multiple items (Any Gizmo, weekly cosmetics, Pirate Shop Access) with a dropdown selector.
+- Shows chests needed for a 50%, 90% and 99% chance.
+- Accounts for treasure hours, with times displayed in your local time zone.
+- Odds and schedule are stored in `config.json`, this can be updated if values change.
 
 ## How to use it?
 
+## How it works
 
+## Limitations and Assumptions
+The drop rate is an estimate, and the tool can’t account for changes Epic makes mid-season.
 
 ## Disclaimer
 This is an unofficial fan tool, not affiliated with or endorsed by Epic Games
